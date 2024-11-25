@@ -1,0 +1,526 @@
+/*------------------ global -------------- */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Alegreya", serif;
+}
+
+img {
+
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+
+}
+
+p {
+    font-size: 17px;
+    font-family: "Alegreya", serif;
+}
+
+a {
+    text-decoration: none;
+    background-color: inherit;
+}
+
+.clear {
+    clear: both;
+}
+
+/* -------------navbar---------------- */
+.navbar {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 7px;
+
+
+}
+
+.bakery_photo {
+    float: left;
+    width: 14.5%;
+    padding-top: 10px;
+}
+
+.bakery_photo img {
+    width: 100%;
+}
+
+.navbar ul {
+    float: right;
+    margin-left: auto;
+    padding-top: 20px;
+    /* font-size: 20px; */
+}
+
+.navbar ul li {
+    float: left;
+    font-size: 18px;
+    padding-right: 30px;
+
+
+    font-weight: 400;
+}
+
+.navbar ul li a {
+    color: black;
+
+
+}
+
+/* ----------------home screen------------- */
+.home {
+    background-image: url(../Bakeryimages/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 90vh;
+    margin-top: 0px;
+
+
+}
+
+.home {
+    text-align: center;
+    padding-top: 180px;
+
+
+    color: rgba(255, 255, 255, .92);
+
+}
+
+.home h1 {
+    padding: 30px 0px;
+    font-size: 76px;
+    font-weight: 400;
+}
+
+.home h3 {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: "Alegreya Sans";
+
+}
+
+.home p {
+    font-size: 24px;
+    width: 750px;
+    margin: auto;
+    line-height: 1.86;
+    padding-bottom: 35 px;
+}
+
+.home button {
+    border: 2px solid white;
+    background: inherit;
+    padding: 15px 28px;
+    display: inline-block;
+    border-radius: 8%;
+    color: rgba(255, 255, 255, .92);
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.home .button #learn {
+    margin-right: 4px;
+    background-color: #8E7754;
+    border: #8E7754;
+    color: rgba(255, 255, 255, .92);
+}
+
+/* -------------------section 1 how we are--------------- */
+.section-one {
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.photo {
+    display: inline-block;
+    width: 46%;
+    vertical-align: top;
+}
+
+.photo img {
+
+    object-fit: cover;
+
+}
+
+.text {
+    display: inline-block;
+    width: 46%;
+    margin-top: 30px;
+    vertical-align: top;
+    margin-left: 5%;
+
+}
+
+.text h4 {
+    font-size: 32px;
+    padding-bottom: 15px;
+    color: #303030;
+    font-weight: 100;
+}
+
+.text p {
+    line-height: 30px;
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: #686868;
+}
+
+.list-one ul li .list-img{
+    display: inline-block;
+    width: 40px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.list-one ul li{
+    padding-bottom: 15px;
+}
+
+.list-one p{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    padding-bottom: 0px;
+    color: #686868;
+
+}
+
+/* -------------section 2 ------------- */
+.section-two {
+    background-color: #F8F8F8;
+    padding-bottom: 80px;
+
+    padding-top: 80px;
+}
+
+.section-two .text-two {
+    display: inline-block;
+    width: 49.8%;
+
+
+    vertical-align: top;
+    margin: 0px;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+
+.text-two h2 {
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    color: #303030;
+    line-height: 1.38em;
+
+}
+
+.text-two p {
+
+    text-align: left;
+    font-size: 18px;
+    margin: 0%;
+    line-height: 1.36em;
+    font-weight: 400;
+
+    color: #8D7868;
+}
+
+.section-two .photo-two {
+    display: inline-block;
+    width: 49.8%;
+}
+
+/* --------------------section 3------------ */
+.section-three {
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 50px;
+    line-height: 1.38em;
+    width: 100%;
+}
+
+.header h2 {
+    font-size: 30px;
+    font-weight: 100;
+
+    display: inline-block;
+
+
+}
+
+.header p {
+
+    color: #888;
+    padding-top: 15px;
+    margin: 17px auto 0;
+    line-height: 1.86em;
+    font-size: 17px;
+
+}
+
+.menu {
+    float: left;
+    width: 33.33%;
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 35px;
+
+
+}
+
+.menu .photo-of-menu {
+
+    text-align: center;
+
+}
+
+.menu h4 {
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+
+    padding-top: 25px;
+    font-size: 23px;
+}
+
+.menu p {
+    padding-top: 25px;
+    line-height: 1.86em;
+    background: #fff;
+    font-size: 16px;
+
+    font-family: 'Open Sans', arial;
+    font-weight: 400;
+    color: #686868;
+}
+
+/* ------------------------section 4------------------- */
+.section-four {
+    background-color: #F8F8F8;
+    padding-bottom: 80px;
+    padding-top: 80px;
+
+}
+
+.section-four .info {
+    float: left;
+    width: 50%;
+
+}
+
+.info h3 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #303030;
+    
+
+}
+
+.info p {
+
+    padding-top: 25px;
+    line-height: 1.96em;
+    width: 650px;
+    font-size: 17px;
+    font-family: 'Open Sans', arial;
+    font-weight: 100;
+    color: #686868;
+
+}
+
+.info span {
+    display: inline-block;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    font-size: 18px;
+    color: #686868;
+    font-weight: 100;
+
+}
+
+.section-four .info .icon {
+
+    display: inline-block;
+    width: 35px;
+    border: 1px solid #8E7754;
+    border-radius: 50%;
+    background-color: #8E7754;
+    height: 35px;
+
+}
+
+.info ul li p {
+    display: inline-block;
+    vertical-align: top;
+    color: #686868;
+    padding-left: 13px;
+    font-size: 16px;
+    padding-bottom: 0px;
+    padding-top: 3px;
+    width: fit-content;
+    font-weight: 400;
+    font-family: "Alegreya Sans";
+   
+
+
+}
+
+.info ul li {
+    padding-bottom: 20px;
+   
+}
+
+.section-four .iframe-map {
+    float: right;
+   
+    width: 50%;
+    padding-left: 54px;
+}
+
+/* ------------section-five----------- */
+.section-five {
+    background-color: #403D38;
+    color: #969696;
+    padding-bottom: 100px;
+}
+
+.section-five .content {
+    padding-top: 30px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.96em;
+}
+
+.content .LIST-IMG {
+    width: 25px;
+    display: inline-block;
+
+}
+
+.content .contact-details .contact-img {
+    width: 45px;
+    display: inline-block;
+}
+
+.section-five .about-us {
+    float: left;
+    width: 25%;
+
+}
+
+.section-five .special {
+    float: left;
+    width: 25%;
+    padding-top: 5px;
+
+}
+
+.section-five .opening-hours {
+    float: left;
+    width: 25%;
+    /* padding-top: 2px; */
+
+}
+
+.section-five .contact-details {
+    background-image: url(../Bakeryimages/contact-details-map.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  
+    float: left;
+    width: 25%;
+
+
+
+}
+
+.section-five p {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.96em;
+    font-size: 16px;
+    border-bottom: #44423D 3px solid;
+    font-weight: 200;
+    padding-top: 5px;
+}
+
+.section-five .contact-details #size {
+    font-size: 18px;
+    width: 250px;
+
+}
+.about-us .border{
+    border-bottom: 3px solid  #403D38 ;
+}
+.section-five h4 {
+    padding: 30px 0px;
+    font-family: "Alegreya";
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 18px;
+
+}
+
+/* ----------the last------------- */
+.last {
+    background-color: #353330;
+    margin: auto;
+}
+
+.last .logo {
+    width: 30%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.last .Copyright {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 18px;
+    color: #777762;
+
+}
+
+.last .social-link {
+    width: fit-content;
+    padding-top: 30px;
+    margin: auto; 
+    
+
+}
+
+.last .sizing {
+    width: 40px;
+    display: inline-block;
+    margin: 0px 2px;
+    border: 1px solid #403D38;
+    border-radius: 50%;
+    padding-left: 0px;
+    margin-bottom: 60px;
+}
